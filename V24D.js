@@ -260,3 +260,7 @@ filtered.forEach((card) => {
   console.log(card);
 });
 // 2) While Chaining Array methods print the name of each pokemon who's type includes Grass
+
+const filtered2 = pokemons.filter((card) => card.types.includes(Grass));
+
+console.log(filtered2);
