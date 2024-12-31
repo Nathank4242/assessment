@@ -11813,5 +11813,4 @@ const filtered = cards.filter((card) => card.rarity === "Common");
 //2)while chainign array methods, print each card that includes "6ED" in it's printings
 
 const filtered2 = cards.filter((card) => card.printings.includes("6ED"));
-
 console.log(filtered2);

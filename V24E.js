@@ -23013,12 +23013,7 @@ let data = [
 
 const filtered = data.filter((card) => card.set.series === "Diamond & Pearl");
 
-filtered.forEach((card) => {
-  console.log(card.name);
-});
-
 //2 print each card name where the card type "includes" Water
 
-const filterType = data.filter((card) => card.types.includes("Water"));
-
-console.log(filterType);
+const filtered2 = data.filter((card) => card.types.includes("Water"));
+console.log(filtered2);
